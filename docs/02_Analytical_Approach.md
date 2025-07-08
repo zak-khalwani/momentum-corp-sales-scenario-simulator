@@ -26,5 +26,4 @@ The visuals on the dashboard are arranged to answer a logical progression of str
 4.  **Which stores and customers are the biggest drivers of the change?** (Answered by the `Store Performance` and `Customer Performance` tables)
 
 This guided analytical path allows a leader to quickly move from a high-level idea to a detailed understanding of its potential real-world impact.
-```
 
