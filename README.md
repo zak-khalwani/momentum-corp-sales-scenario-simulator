@@ -50,7 +50,7 @@ The dashboard guides a strategic planner through a logical workflow, from buildi
 ### 1. The Control Panel: Defining the Macro Scenario
 The journey begins on the left-hand panel, where a user defines the high-level assumptions for the simulation.
 
-![Scenario Controls](assets/scenario_controls.png)
+<p align="center"> <img src="assets/scenario_controls.png" width="20%" alt="Data Model"> </p>
 
 *   **Scope Definition:** The user selects the `time frame` and `region` to set the boundaries for the analysis.
 *   **The Core Levers:** Two powerful sliders allow for market-wide adjustments:
@@ -60,7 +60,7 @@ The journey begins on the left-hand panel, where a user defines the high-level a
 ### 2. Top-Line KPIs: The Immediate Financial Outcome
 The KPI cards at the top provide the instant "so what?" of the simulation.
 
-![KPI Cards](assets/kpi_cards.png)
+<p align="center"> <img src="assets/kpi_cards.png" width="50%" alt="Data Model"> </p>
 
 *   **`Sales Metrics (vs last year)`:** This is the baseline health check, showing the selected period's `Total Sales` and its growth or decline compared to the previous year.
 *   **`Scenario Metrics (vs actual)`:** This is the result card. It displays the new `Sales Scenarios` value and its percentage uplift. This is the primary answer to the "what-if" question.
@@ -68,8 +68,7 @@ The KPI cards at the top provide the instant "so what?" of the simulation.
 ### 3. Trend Analysis: The Scenario's Impact Over Time
 The charts in the center of the dashboard illustrate the performance of the scenario over the selected period.
 
-![Trend Charts](assets/trend_charts.png)
-*(Note: For this composite image, include the 'Performance vs Scenario', 'Monthly Performance vs Scenario', and 'Monthly Potential Sales Growth' charts.)*
+<p align="center"> <img src="assets/trend_charts.png" width="60%" alt="Data Model"> </p>
 
 *   **`Performance vs Scenario`:** This cumulative area chart visualizes the compounding effect of the strategy, showing the gap between the scenario sales (blue) and baseline sales (green) widening over time.
 *   **`Monthly Performance vs Scenario`:** This bar chart provides a month-by-month breakdown, allowing leaders to see if the scenario's impact is consistent or seasonal by comparing the two bars directly.
@@ -92,12 +91,17 @@ This multi-faceted approach transforms the dashboard from a report into a true s
 ```
 .
 ├── assets/
-│   └── (All dashboard screenshots and demo GIF)
+│   ├── sales_scenario_demo.gif
+│   ├── dashboard_overview.png
+│   ├── data_model.png
+│   ├── scenario_controls.png
+│   ├── kpi_cards.png
+│   ├── trend_charts.png
+│   └── breakdown_tables.png
 ├── docs/
 │   ├── 01_Business_Context.md
 │   ├── 02_Analytical_Approach.md
 │   └── 03_DAX_Implementation.md
-├── .gitignore
 └── README.md
 ```
 
@@ -108,7 +112,6 @@ This multi-faceted approach transforms the dashboard from a report into a true s
     *   Click the "Live Simulator" badge at the top of this page or go directly to: [https://tinyurl.com/2d85d68u](https://tinyurl.com/2d85d68u)
 2.  **Review the Documentation:**
     *   For a deeper understanding of the business logic and technical implementation, review the detailed markdown files in the `docs/` folder.
-```
 
 
 
