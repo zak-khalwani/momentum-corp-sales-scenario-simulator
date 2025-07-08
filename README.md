@@ -109,7 +109,7 @@ This multi-faceted approach transforms the dashboard from a report into a true s
 
 ## 4. How to Explore This Project
 1.  **Interact with the Live Simulator:**
-    *   Click the "Live Simulator" badge at the top of this page or go directly to: [https://tinyurl.com/2d85d68u](https://tinyurl.com/2d85d68u)
+    *   Click the "Live Simulator" badge at the top of this page or go directly to: [Live Simulator Demo](https://tinyurl.com/2d85d68u)
 2.  **Review the Documentation:**
     *   For a deeper understanding of the business logic and technical implementation, review the detailed markdown files in the `docs/` folder.
 
